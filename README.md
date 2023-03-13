@@ -6,11 +6,11 @@ találtok részletes leírást hogyan tudtok létrehozni egy új Windows Forms a
 
 
 ### Adatbazis kapcsolat letrehozasa
-Az adatbazis kapcsolatot az ADO.NET osztalyai segisegevel hozhatjuk letre. Az ADO.NET szerepe egy absztrakciós szintet biztositson a különböző adatforrások(állományok, adatbázisok, web szolgaltatasok stb.) egységes kezelésére
+Az adatbázis kapcsolatot az ADO.NET osztályai segíségével hozhatjuk létre. Az ADO.NET szerepe, hogy egy absztrakciós szintet biztosítson a különböző adatforrások(állományok, adatbázisok, web szolgaltatasok stb.) egységes kezelésére
 
 ![ADO.net](img/adonet.png)
 
-[Itt találtok több példát, viszont az SQL adatforrást kell használnunk az alkamazásunk esetén.](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-code-examples )
+[Itt találtok több példát, viszont csak a SQL adatforrást kell használnunk az alkamazásunk esetén.](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-code-examples )
 
 ## Példa projekt importálásának lépései
 
@@ -18,11 +18,11 @@ Az adatbazis kapcsolatot az ADO.NET osztalyai segisegevel hozhatjuk letre. Az AD
 nyaralo_script.sql végrehajtása (létrejön az adatbázis s annak táblái és feltöltodnek adatokkal)
 
 ### 2. lépés
-  Berlesek_pelda_2018 projekt megnyitása Visual Studio-val. 
-  Ez tortenhet .sln(solution) kiterjesztesu allomany megnyitasaval vagy a Visual  Studio `File->Open` opciojaval
+  Példa projekt megnyitása Visual Studio-val. 
+  Ez torténhet .sln(solution) kiterjesztesű állomány megnyitásával vagy a Visual  Studio `File->Open` opciojával.
 
 ### 3.lépés
-DALGen.cs fájlban a kapcsolati karakterlánc (strSqlConn) testreszabása. Ebben az allomanyban találtok példát és némi magyarázatot, hogy hogyan dolgozz az ADO.NET  
+DALGen.cs fájlban a kapcsolati karakterlánc (strSqlConn) testreszabása. Ebben az allomanyban találtok példát és némi magyarázatot, hogy hogyan dolgozz az ADO.NET.
 
 
 ### 4.lépés
