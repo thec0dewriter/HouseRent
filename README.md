@@ -31,6 +31,17 @@ DALGen.cs fájlban a kapcsolati karakterlánc (strSqlConn) testreszabása. Ebben
 Program futtatása : Start
 
 
+## Projekt strukturalis elrendezes
+A pelda projekt a kiindulasi pont a minimalis strukturalis elrendezesre. Fontos hogy az adatbazisra torteno kapcsolat letrehozasa, az uzleti entitasok valamint a logika es megjelenitesi resz megfeleloen el legyenek valasztva.
+Erre nehany iranyelv:
+- Data Access Layer(DAL): az adatbazis kapcsolat kezelesere
+- Repository minta: az uzleti objektumok kezelesere (entitasok hozzaadasa, torlese, lekerdezese)
+- MVP (MVC/MVVM): a felhasznaloi feluleten valo megjelenites valamint felhasznalo interakciora 
+[(Itt talaltok egy megvalositast, s nehany kodreszletet)](https://www.youtube.com/watch?v=WSBy_Ypgk38&ab_channel=RJCodeAdvanceEN)
+
+
+
+
 ## Egyeb tipusu desktop kliens fejlesztes
 
 ### Windows platformra
@@ -40,8 +51,10 @@ Ha szeretnetek modernebb felhasznaloi feluletet kesziteni, lehetoseg van egyeb k
 	es [van pelda adatbazis kapcsolat letrehozasara is](https://learn.microsoft.com/en-us/windows/uwp/data-access/sql-server-databases).
 - [Windows App SDK+ WinUI3](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/) A legujjabb de erre is talalhattok [peldaprojektet](https://github.com/Microsoft/Windows-appsample-customers-orders-database) valamint leirast az [adatbazis kapcsolat letrehozasara ](https://learn.microsoft.com/en-us/windows/apps/develop/data-access/sql-server-database
 
-*Ami fontos hogy ORM keretrendszerek hasznalata nem elfogadott (pl Entity Framework).*
+*Ami fontos hogy ORM keretrendszerek (pl Entity Framework) vagy LINQ hasznalata nem elfogadott.*
 
 ### Linux/Mac 
 Hasznalhatto Java ebben az esetben, mivel megtalalhatoak a megfelelo grafikus felhasznaloi komponensek(gombok,listak stb) viszont ORM keretrendszerek(pl. Hibernate) hasznalata nem elfogadott(itt sem).  
 Mac-re lehetoseg van Xamarin keretrendszeren keresztuli fejlesztesre viszont [kevesebb peldaprogram erheto el](https://learn.microsoft.com/en-us/xamarin/mac/app-fundamentals/databases)
+
+
