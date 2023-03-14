@@ -32,10 +32,10 @@ Program futtatása : Start
 
 
 ## Projekt strukturalis elrendezes
-A pelda projekt a kiindulasi pont a minimalis strukturalis elrendezesre. Fontos hogy az adatbazisra torteno kapcsolat letrehozasa, az uzleti entitasok valamint a logika es megjelenitesi resz megfeleloen el legyenek valasztva.
+A pelda projekt a kiindulasi pont a minimalis strukturalis elrendezesre. Fontos hogy az adatbazisra történo kapcsolat letrehozasa, a tablakon valo műveletek és megjelenitési rész megfelelően el legyenek választva.
 Erre nehany iranyelv:
 - Data Access Layer(DAL): az adatbazis kapcsolat kezelesere
-- Repository minta: az uzleti tablak kezelesere (sorok hozzaadasa, torlese, lekerdezese)
+- Repository minta: az tablak kezelesere (sorok hozzaadasa, torlese, lekerdezese)
 - MVP/MVC/MVVM: a felhasznaloi feluleten valo megjelenites valamint felhasznalo interakciora.
 
 Nem kötelező az MVP/MVC/MVVM tervezési minta használata, azonban az adatkezelési réteg (Model) és a grafikus felület (View) elkülönítését mindenképp meg kell oldani, vagyis:
