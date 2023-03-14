@@ -35,9 +35,14 @@ Program futtatása : Start
 A pelda projekt a kiindulasi pont a minimalis strukturalis elrendezesre. Fontos hogy az adatbazisra torteno kapcsolat letrehozasa, az uzleti entitasok valamint a logika es megjelenitesi resz megfeleloen el legyenek valasztva.
 Erre nehany iranyelv:
 - Data Access Layer(DAL): az adatbazis kapcsolat kezelesere
-- Repository minta: az uzleti objektumok kezelesere (entitasok hozzaadasa, torlese, lekerdezese)
-- MVP (MVC/MVVM): a felhasznaloi feluleten valo megjelenites valamint felhasznalo interakciora 
-[(Itt talaltok egy megvalositast, s nehany kodreszletet)](https://www.youtube.com/watch?v=WSBy_Ypgk38&ab_channel=RJCodeAdvanceEN)
+- Repository minta: az uzleti tablak kezelesere (sorok hozzaadasa, torlese, lekerdezese)
+- MVP/MVC/MVVM: a felhasznaloi feluleten valo megjelenites valamint felhasznalo interakciora.
+
+Nem kötelező az MVP/MVC/MVVM tervezési minta használata, azonban az adatkezelési réteg (Model) és a grafikus felület (View) elkülönítését mindenképp meg kell oldani, vagyis:
+A projektben is minden olyan táblára vonatkozóan létre kell hoznunk egy új osztályt,amelyben az adott táblához kapcsolódó konkrét lekérdezéseket írjuk.
+A példaprogramok esetén ezek az osztályok a Houses.cs, Countries.cs, Owners.cs. Ezenkívül minden táblára egy-egy adattípus is (struct) létre van hozva: House, Country és Owner.
+
+[(Itt talaltok egy MVP megvalositast, s nehany kodreszletet)](https://www.youtube.com/watch?v=WSBy_Ypgk38&ab_channel=RJCodeAdvanceEN)
 
 
 
