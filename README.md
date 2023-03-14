@@ -25,7 +25,7 @@ nyaralo_script.sql végrehajtása (létrejön az adatbázis s annak táblái és
 
 ### 3.lépés
 DALGen.cs fájlban a kapcsolati karakterlánc (strSqlConn) testreszabása. Ebben az allomanyban találtok példát és némi magyarázatot, hogy hogyan dolgozz az ADO.NET.
-
+A valid ConnectionString(kapcsolati karakterlanc) letrehozasara hasznalhatjatok a [SqlConnectionStringBuilder](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnectionstringbuilder?view=dotnet-plat-ext-7.0) osztalyt.
 
 ### 4.lépés
 Program futtatása : Start
